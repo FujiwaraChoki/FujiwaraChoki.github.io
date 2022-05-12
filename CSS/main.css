@@ -15,6 +15,6 @@ p {
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
+    vertical-align: center;
     width: 150px;
 }
