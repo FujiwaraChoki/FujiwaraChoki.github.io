@@ -1,20 +1,22 @@
-h1 {
-    background-color: #607d8b;
-    color: #ffffff;
-    text-align: center;
-  }
-
-#text123 {
-    color: #7343c1;
+#seitenTitel {
+  color: #7343c1;
+  font: icon;
+  font: bold;
+  font-size: xx-large;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
+  font: icon;
+  font-size: larger;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+#img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 15px groove;
+  padding: 15px;
+}
