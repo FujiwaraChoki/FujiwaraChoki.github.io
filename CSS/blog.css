@@ -12,3 +12,9 @@
 body {
     background-image: url("/images/bgIMG.png");
 }
+
+th, td {
+    border-style: groove;
+    background-color: #085353;
+    border-color: #085353;
+  }
