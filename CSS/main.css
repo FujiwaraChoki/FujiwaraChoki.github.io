@@ -60,3 +60,8 @@ p {
 body {
   background-image: url("/images/bgIMG1.png");
 }
+
+#backButton {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+}
