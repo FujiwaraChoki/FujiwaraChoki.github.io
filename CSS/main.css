@@ -1,7 +1,6 @@
 #seitenTitel {
-  color: #7343c1;
+  color: black;
   font: icon;
-  font: bold;
   font-size: xx-large;
   text-align: center;
 }
@@ -19,4 +18,11 @@ p {
   width: 30%;
   border: 15px groove;
   padding: 15px;
+}
+
+#aesthetics {
+  color: rgb(17, 129, 95);
+  font: italic;
+  font-size: xx-large;
+  text-align: center;
 }
