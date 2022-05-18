@@ -1,0 +1,14 @@
+#blogBeginning {
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+#uploadSchedule {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+body {
+    background-image: url("/images/bgIMG.png");
+}
