@@ -22,14 +22,14 @@
     <script>
         function myFunction() {
             var hashmap = new Map();
-            hashmap.set("FujiwaraChoki", "sami");
             hashmap.set("Quandale", "Dingle");
+            hashmap.set("FujiwaraChoki", "sami");
             for (var [key, value] of hashmap) {
                 if(document.getElementById("username").value == key && document.getElementById("password").value == value) {
                     alert("Correct!");
                     window.location.href = "https://portfolio-sami-hindi.netlify.app";
                 } else {
-                    alert("Wrong Data!"); 
+                    console.log("Incorrect Combination was entered.")
                 }
             }
         }
