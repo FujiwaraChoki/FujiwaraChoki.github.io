@@ -7,7 +7,7 @@
 
 #aesthetics {
   overflow: hidden;
-  animation: animate 2.5s ease forwards;
+  animation: animate 2s ease-in-out;
   width: 40%;
   top: 5.5%;
   left: 30%;
@@ -21,7 +21,7 @@
     height: 0px;
   }
   30% {
-    width: 50px;
+    width: 1000px;
     height: 0px;
   }
   80% {
