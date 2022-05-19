@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <script>
+        function myFunction() {
+            if(document.getElementById("username").value == "FujiwaraChoki" && document.getElementById("password").value == "sami") {
+                alert("Correct!");
+            } else {
+                alert("Wrong Data!");
+            }
+        }
+    </script>
+
+    <p>
+    <form id="loginForm">
+        <label for="username" id="usernameLabel"><span class="textFor">Username:</span></label><br>
+        <input type="text" id="username"><br>
+        <label for="pwd" id="passwordLabel"><span class="textFor">Password:</span></label><br>
+        <input type="password" id="password">
+    </form>
+    </p>
+
+    <input type="button" onclick="myFunction()" value="Submit" id="submitButton">
+
+</body>
+</html>
