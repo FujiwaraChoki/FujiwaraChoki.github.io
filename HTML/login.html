@@ -17,26 +17,10 @@
     </form>
     </p>
  
-    <input type="button" onclick="myFunction()" value="Submit" id="submitButton">
+    <input type="button" onclick="myFunction()" value="Login" id="submitButton">
 
-    <script>
-        function myFunction() {
-            var hashmap = new Map();
-            hashmap.set("Quandale", "Dingle");
-            hashmap.set("FujiwaraChoki", "sami");
-            hashmap.set("GoogTown", "TomatenSuppenSauce");
-            hashmap.set("ArcadeFortune", "nanimokamokowaretasekaidewakemowakaranaimamanifuretayasashisagamadakowakuteananoaitakokoronosukimaumetekureruhitowakiminanoerandedate a live");
-            hashmap.set("GiletteAbdi", "123");
-            hashmap.set("swizzyy", "Kuchen123");
-            for (var [key, value] of hashmap) {
-                if(document.getElementById("username").value == key && document.getElementById("password").value == value) {
-                    alert("Correct!");
-                    window.location.href = "https://portfolio-sami-hindi.netlify.app";
-                } else {
-                    console.log("Incorrect Combination was entered.")
-                }
-            }
-        }
-    </script>
+    <script src="/JavaScript/main.js" async></script>
+
 </body>
+
 </html>
