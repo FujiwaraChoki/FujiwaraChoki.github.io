@@ -8,7 +8,7 @@
     <title>Blog Post of 18.05.2022</title>
 </head>
 <body>
-    <a href="/index.html"><img src="/images/logo.png" id="logo" title="Go back to homepage." alt="Sami's Website" ></a>
+    <a href="/index.php"><img src="/images/logo.png" id="logo" title="Go back to homepage." alt="Sami's Website" ></a>
     <h1 id="date" class="text" align="center">Date:<br />18.05.2022</h1>
     
     <p id="blogText" class="text">

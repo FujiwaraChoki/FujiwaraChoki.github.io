@@ -8,7 +8,7 @@
     <title>Blog Post of 19.05.2022</title>
 </head>
 <body>
-    <a href="/index.html"><img src="/images/logo.png" id="logo" title="Go back to homepage." alt="Sami's Website" ></a>
+    <a href="/index.php"><img src="/images/logo.png" id="logo" title="Go back to homepage." alt="Sami's Website" ></a>
     <h1 id="date" class="text" align="center">Date:<br />19.05.2022</h1>
 
     <p class="blogText">Hello, I have yet to break my habit of writing here, which I'm glad about, since I'm not good 

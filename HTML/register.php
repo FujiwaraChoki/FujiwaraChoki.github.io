@@ -9,17 +9,15 @@
 </head>
 <body>
     <p>
-        <form id="loginForm">
+        <form id="loginForm" action="../registerMind.php" method="post">
             <label for="username" id="usernameLabelRegister"><span class="textFor">Username:</span></label><br>
-            <input type="text" id="usernameRegister"><br>
+            <input type="text" id="usernameRegister" name="usernameInput"><br>
             <label for="pwd" id="passwordLabelRegister"><span class="textFor">Password:</span></label><br>
-            <input type="password" id="passwordRegister">
+            <input type="password" id="passwordRegister" name="passwordInput">
+
+            <input type="submit" value="Register" id="registerButton">
         </form>
         </p>
-     
-        <input type="button" onclick="register()" value="Register" id="registerButton">
-    
-        <script src="/JavaScript/main.js" async></script>
 
 </body>
 

@@ -8,7 +8,7 @@
     <title>Blog</title>
 </head> 
 <body>
-    <a href="../index.html"><img src="/images/logo.png" title="Go back to homepage." alt="Sami's Website"></a>
+    <a href="../index.php"><img src="/images/logo.png" title="Go back to homepage." alt="Sami's Website"></a>
 
     <h1 id="blogBeginning" class="text">Blog</h1>
 
@@ -26,10 +26,10 @@
 
     <div class="parent">
         <ul id="uploadDates">
-            <li><a href="/HTML/BlogPostsHTML/18_05_2022.html">18.05.2022<br /></a></li>
-            <li><a href="/HTML/BlogPostsHTML/19_05_2022.html">19.05.2022</a></li>
+            <li><a href="/HTML/BlogPostsHTML/18_05_2022.php">18.05.2022<br /></a></li>
+            <li><a href="/HTML/BlogPostsHTML/19_05_2022.php">19.05.2022</a></li>
             <li>20.05.2022</li>
-            <li><a href="/HTML/BlogPostsHTML/21_05_2022.html">21.05.2022</a></li>
+            <li><a href="/HTML/BlogPostsHTML/21_05_2022.php">21.05.2022</a></li>
         </ul>
     </div>
 

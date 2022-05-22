@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <a href="index.html"><img src="images/logo.png" title="Go back to homepage." alt="Sami's Website"></a>
+    <a href="index.php"><img src="images/logo.png" title="Go back to homepage" alt="Sami's Website"></a>
 
     <h1 id="aesthetics">Aesthetics</h1>
 
     <p id="githubLinkText&Blog" class="text"><br />Here you'll find my
         <a id="githubLink" class="links" href="https://github.com/FujiwaraChoki" target="_blank">
-            Github Link </a>and also my <a id="blogLink" class="links" href="/HTML/blog.html">Blog</a>.
+            Github Link </a>and also my <a id="blogLink" class="links" href="/HTML/blog.php">Blog</a>.
     </p>
 
     <p id="klasse" class="text">Klasse IM21</p>
@@ -27,9 +27,9 @@
 
     <p id="name" class="text">Sami :)</p>
 
-    <p id="backButton" class="buttons"><a href="javascript:history.back()">Go Back</a></p> <p id="loginButton"><a href="/HTML/login.html">Login</a></p>
+    <p id="backButton" class="buttons"><a href="javascript:history.back()">Go Back</a></p> <p id="loginButton"><a href="/HTML/login.php">Login</a></p>
 
-    <p id="registerButton" class="buttons"><a href="HTML/register.html">Register</a></p>
+    <p id="registerButton" class="buttons"><a href="HTML/register.php">Register</a></p>
 </body>
   
 </html>

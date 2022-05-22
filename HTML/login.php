@@ -9,11 +9,11 @@
 </head>
 <body>
     <p>
-    <form id="loginForm">
+    <form id="loginForm" action="/PHP/login.php" method="post">
         <label for="username" id="usernameLabel"><span class="textFor">Username:</span></label><br>
-        <input type="text" id="username"><br>
+        <input type="text" id="username" name="usernameInput"><br>
         <label for="pwd" id="passwordLabel"><span class="textFor">Password:</span></label><br>
-        <input type="password" id="password">
+        <input type="password" id="password" name="passwordInput">
     </form>
     </p>
  
